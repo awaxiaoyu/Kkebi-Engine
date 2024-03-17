@@ -1,0 +1,203 @@
+﻿  Building 'KkebiCheatKernel' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Releasewithoutsig\DBK64.inf
+  Stamping [Version] section with DriverVer=03/10/2024,11.29.54.699
+G:\daima\kkebi-engine-master\DBKKernel\DBK64.inf(5-5): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+  DBKKernel.vcxproj -> G:\daima\kkebi-engine-master\Cheat Engine\bin\KkebiCheatKernel64.sys
+  
+  The following certificates were considered:
+      Issued to:  
+  
+      Issued by: thawte SHA256 Code Signing CA
+  
+      Expires:   Wed Dec 30 07:59:59 2015
+  
+      SHA1 hash: FE6885F629D920DCE90FB03F0DB7B95709811C0D
+  
+  
+      Issued to: Beijing Chunbai Technology Development Co., Ltd
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Wed Jun 19 07:59:59 2013
+  
+      SHA1 hash: F981DB345F885899FAE9382D7D3BCAF75B1CE797
+  
+  
+      Issued to: E2CDE905-6FAE-45F4-9925-B788BAB22B84
+  
+      Issued by: Apple iPhone Device CA
+  
+      Expires:   Fri Oct 18 15:59:42 2024
+  
+      SHA1 hash: F3ACBAB7BE616CFB09CF59A4C26C278B60D367DE
+  
+  
+      Issued to: WDKTestCert 13112,133544632351069500
+  
+      Issued by: WDKTestCert 13112,133544632351069500
+  
+      Expires:   Thu Mar 09 08:00:00 2034
+  
+      SHA1 hash: F0D6C78DBEDF32D53E5539F0056D19D4E721F8ED
+  
+  
+      Issued to: localhost
+  
+      Issued by: localhost
+  
+      Expires:   Wed Jan 29 11:56:48 2025
+  
+      SHA1 hash: E299A47A885ECEED1FCE7ED06008177E95528E7F
+  
+  
+      Issued to: Beijing JoinHope Image Technology Ltd.
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Sun May 17 07:59:59 2015
+  
+      SHA1 hash: DF788AA00EB400B552923518108EB1D4F5B7176B
+  
+  
+      Issued to: Shenzhen Luyoudashi Technology Co., Ltd.
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Thu May 07 07:59:59 2015
+  
+      SHA1 hash: D715230B535C8937B469632EC6158761FD18AD21
+  
+  
+      Issued to: E31F77C7-44C8-4C85-B695-7966C34FAE07
+  
+      Issued by: Apple iPhone Device CA
+  
+      Expires:   Fri Oct 18 12:05:17 2024
+  
+      SHA1 hash: D5730EED809250DF7289B467F4B845CBBF635BD8
+  
+  
+      Issued to: Fuqing Yuntan Network Tech Co.,Ltd.
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Thu Apr 10 07:59:59 2014
+  
+      SHA1 hash: C61A221389C98EE2FBC0E57A62DEE5A915E6C509
+  
+  
+      Issued to: Luca Marcone
+  
+      Issued by: Certum Code Signing CA
+  
+      Expires:   Wed Dec 30 22:06:53 2015
+  
+      SHA1 hash: B7C646E3A433986E165BA45B209DA4A2C4111939
+  
+  
+      Issued to: HT Srl
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Sun Aug 05 07:59:59 2012
+  
+      SHA1 hash: B366DBE8B3E81915CA5C5170C65DCAD8348B11F0
+  
+  
+      Issued to: Bopsoft
+  
+      Issued by: thawte SHA256 Code Signing CA
+  
+      Expires:   Fri Nov 23 07:59:59 2018
+  
+      SHA1 hash: B111E6E7590296884968201AD0DBA8FB19D01F17
+  
+  
+      Issued to: Baoji zhihengtaiye co.,ltd
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Sat Jun 14 07:59:59 2014
+  
+      SHA1 hash: 864FD20B322E8C7CDB0D7AA69C8475F09D602C3D
+  
+  
+      Issued to: Jiangsu innovation safety assessment Co., Ltd.
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Sat Jun 14 07:59:59 2014
+  
+      SHA1 hash: 85C58500333C98954160FCA3EE9A26B659A5F451
+  
+  
+      Issued to: Zhuhai liancheng Technology Co., Ltd.
+  
+      Issued by: VeriSign Class 3 Code Signing 2010 CA
+  
+      Expires:   Wed Feb 05 07:59:59 2014
+  
+      SHA1 hash: 7B69FF55D3C39BD7D67A10F341C1443425F0C83F
+  
+  
+      Issued to: NHN USA Inc.
+  
+      Issued by: Thawte Code Signing CA
+  
+      Expires:   Sat Oct 29 07:59:59 2011
+  
+      SHA1 hash: 775141B89F48B71DADC19F13011A46E537E7029C
+  
+  
+      Issued to: HT Srl
+  
+      Issued by: VeriSign Class 3 Code Signing 2009-2 CA
+  
+      Expires:   Sun Jul 31 07:59:59 2011
+  
+      SHA1 hash: 6C5886C0DA723E8B2AEC8C02392D4B175E793EBE
+  
+  
+      Issued to: 
+  
+      Issued by: WoSign Class 3 Code Signing CA
+  
+      Expires:   Wed May 06 12:06:20 2015
+  
+      SHA1 hash: 6BC9649368643760190234FBB8395F4CACC2C9CB
+  
+  
+      Issued to: Open Source Developer, William Zoltan
+  
+      Issued by: Certum Level III CA
+  
+      Expires:   Tue Jan 19 15:31:30 2016
+  
+      SHA1 hash: 2A1DA6DC8635E6C725CCCBE6C035EEC813FBEB2E
+  
+  
+  After EKU filter, 16 certs were left.
+  After expiry filter, 1 certs were left.
+  After Hash filter, 1 certs were left.
+  After Private Key filter, 1 certs were left.
+  The following certificate was selected:
+      Issued to: WDKTestCert 13112,133544632351069500
+  
+      Issued by: WDKTestCert 13112,133544632351069500
+  
+      Expires:   Thu Mar 09 08:00:00 2034
+  
+      SHA1 hash: F0D6C78DBEDF32D53E5539F0056D19D4E721F8ED
+  
+  
+  Done Adding Additional Store
+  Successfully signed: G:\daima\kkebi-engine-master\Cheat Engine\bin\KkebiCheatKernel64.sys
+  
+  
+  Number of files successfully Signed: 1
+  
+  Number of warnings: 0
+  
+  Number of errors: 0
+  
+G:\daima\vcpkg\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(228,5): warning : [vcpkg] Failed to gather app local DLL dependencies, program may not run. Set VcpkgApplocalDeps to false in your project file to suppress this warning. PowerShell arguments: -ExecutionPolicy Bypass -noprofile -File "G:\daima\vcpkg\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "G:\daima\kkebi-engine-master\Cheat Engine\bin\KkebiCheatKernel64.sys" "G:\daima\vcpkg\vcpkg\installed\x64-windows\bin" "x64\Releasewithoutsig\KkebiCheatKernel.tlog\KkebiCheatKernel.write.1u.tlog" "x64\Releasewithoutsig\vcpkg.applocal.log"
