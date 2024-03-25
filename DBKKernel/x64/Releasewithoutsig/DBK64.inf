@@ -1,0 +1,82 @@
+;
+; KkebiCheatKernel64.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=KkebiCheatKernel64.cat
+DriverVer = 03/10/2024,11.29.54.699
+
+[DestinationDirs]
+DefaultDestDir = 12
+KkebiCheatKernel64_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+KkebiCheatKernel64.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%KkebiCheatKernel64.DeviceDesc%=KkebiCheatKernel64_Device, Root\KkebiCheatKernel64 ; TODO: edit hw-id
+
+[KkebiCheatKernel64_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+KkebiCheatKernel64.sys
+
+;-------------- Service installation
+[KkebiCheatKernel64_Device.NT.Services]
+AddService = KkebiCheatKernel64,%SPSVCINST_ASSOCSERVICE%, KkebiCheatKernel64_Service_Inst
+
+; -------------- KkebiCheatKernel64 driver install sections
+[KkebiCheatKernel64_Service_Inst]
+DisplayName    = %KkebiCheatKernel64.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\KkebiCheatKernel64.sys
+
+;
+;--- KkebiCheatKernel64_Device Coinstaller installation ------
+;
+
+[KkebiCheatKernel64_Device.NT.CoInstallers]
+AddReg=KkebiCheatKernel64_Device_CoInstaller_AddReg
+CopyFiles=KkebiCheatKernel64_Device_CoInstaller_CopyFiles
+
+[KkebiCheatKernel64_Device_CoInstaller_AddReg]
+;
+
+
+[KkebiCheatKernel64_Device_CoInstaller_CopyFiles]
+;
+
+
+[KkebiCheatKernel64_Device.NT.Wdf]
+KmdfService =  KkebiCheatKernel64, KkebiCheatKernel64_wdfsect
+[KkebiCheatKernel64_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Cheat Engine" ;TODO: Replace with your manufacturer name
+ClassName="System" ; TODO: edit ClassName
+DiskName = "KkebiCheatKernel64 Installation Disk"
+KkebiCheatKernel64.DeviceDesc = "KkebiCheatKernel64 Device"
+KkebiCheatKernel64.SVCDESC = "KkebiCheatKernel64 Service"

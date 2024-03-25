@@ -1,0 +1,5 @@
+FAIL: /c/Users/13112/gcc/gcc-3.2/gcc/testsuite/gcc.c-torture/compile/*.c
+FAIL: /c/Users/13112/gcc/gcc-3.2/gcc/testsuite/gcc.c-torture/execute/*.c
+0 test(s) ok.
+2 test(s) failed.
+0 test(s) exe failed.
